@@ -1,9 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #2e2e34;
-  font-family: 'Roboto', sans-serif;
-  color: #c9a0ff;
+  background: linear-gradient(145deg, #1a1a1f, #292933);
+  font-family: 'Outfit', sans-serif;
+  color: #e0d3ff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,32 +11,35 @@ body {
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 1rem;
+  width: 100%;
+  max-width: 700px;
 }
 
 .card {
-  background: #1f1f22;
-  border-radius: 20px;
-  padding: 2rem 3rem;
-  max-width: 800px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  background-color: #1e1e26;
+  border-radius: 16px;
+  padding: 2.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  text-align: center;
 }
 
 .title {
-  font-family: 'Anton', sans-serif;
-  font-size: 2.5rem;
-  color: #a051ff;
-  margin-bottom: 1.5rem;
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #b478f1;
+  margin-bottom: 1rem;
 }
 
-.message {
-  font-size: 1.2rem;
+.subtitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.info {
+  font-size: 1rem;
   margin-bottom: 2rem;
-  line-height: 1.5;
-  color: #c9a0ff;
 }
 
 .kontakt p {
@@ -44,7 +47,7 @@ body {
 }
 
 .kontakt a {
-  color: #c9a0ff;
+  color: #d3b2ff;
   text-decoration: none;
 }
 
